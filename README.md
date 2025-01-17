@@ -24,7 +24,11 @@
 
 ## Description
 
-[Nest](https://github.com/nestjs/nest) framework TypeScript starter repository.
+This project demonstrates my skills in building robust applications using NestJS.
+
+It features a CRUD implementation written in TypeScript with multiple queries to a PostgreSQL database. The database is managed through a server configured with Docker Compose and integrated into the project using Prisma as the ORM.
+
+The application leverages many of the most important features of NestJS, including comprehensive documentation generated with Swagger.
 
 ## Project setup
 
