@@ -1,0 +1,14 @@
+
+services:
+  postgres:
+    image: postgres:latest
+    container_name: postgres_db
+    environment:
+      POSTGRES_USER: FagaFenix
+      POSTGRES_PASSWORD: myPassword123
+      POSTGRES_DB: POSTGRES_USERS
+    ports:
+      - "5432:5432"
+
+volumes:
+  postgres_data:
